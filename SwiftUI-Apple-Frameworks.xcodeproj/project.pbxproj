@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		018B81B32BF1323900C7E1BC /* SwiftUI_Apple_FrameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B81B22BF1323900C7E1BC /* SwiftUI_Apple_FrameworksApp.swift */; };
-		018B81B52BF1323900C7E1BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B81B42BF1323900C7E1BC /* ContentView.swift */; };
 		018B81B72BF1323A00C7E1BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 018B81B62BF1323A00C7E1BC /* Assets.xcassets */; };
 		018B81BA2BF1323A00C7E1BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 018B81B92BF1323A00C7E1BC /* Preview Assets.xcassets */; };
 		018B81C42BF1323A00C7E1BC /* SwiftUI_Apple_FrameworksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B81C32BF1323A00C7E1BC /* SwiftUI_Apple_FrameworksTests.swift */; };
 		018B81CE2BF1323A00C7E1BC /* SwiftUI_Apple_FrameworksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B81CD2BF1323A00C7E1BC /* SwiftUI_Apple_FrameworksUITests.swift */; };
 		018B81D02BF1323A00C7E1BC /* SwiftUI_Apple_FrameworksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B81CF2BF1323A00C7E1BC /* SwiftUI_Apple_FrameworksUITestsLaunchTests.swift */; };
+		018B81DD2BF1326700C7E1BC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 018B81DC2BF1326700C7E1BC /* .gitignore */; };
+		018B81DF2BF1331500C7E1BC /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B81DE2BF1331500C7E1BC /* Framework.swift */; };
+		018B81E12BF133D300C7E1BC /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B81E02BF133D300C7E1BC /* FrameworkGridView.swift */; };
+		018B81E32BF13A6300C7E1BC /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B81E22BF13A6300C7E1BC /* FrameworkDetailView.swift */; };
+		018B81E72BF13F8A00C7E1BC /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B81E62BF13F8A00C7E1BC /* FrameworkGridViewModel.swift */; };
+		018B81E92BF14DB400C7E1BC /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B81E82BF14DB400C7E1BC /* SafariView.swift */; };
+		018B81EB2BF1507C00C7E1BC /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B81EA2BF1507C00C7E1BC /* FrameworkTitleView.swift */; };
+		018B81ED2BF150F500C7E1BC /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018B81EC2BF150F500C7E1BC /* XDismissButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,6 @@
 /* Begin PBXFileReference section */
 		018B81AF2BF1323900C7E1BC /* SwiftUI-Apple-Frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Apple-Frameworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		018B81B22BF1323900C7E1BC /* SwiftUI_Apple_FrameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Apple_FrameworksApp.swift; sourceTree = "<group>"; };
-		018B81B42BF1323900C7E1BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		018B81B62BF1323A00C7E1BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		018B81B92BF1323A00C7E1BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		018B81BF2BF1323A00C7E1BC /* SwiftUI-Apple-FrameworksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-Apple-FrameworksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,14 @@
 		018B81C92BF1323A00C7E1BC /* SwiftUI-Apple-FrameworksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-Apple-FrameworksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		018B81CD2BF1323A00C7E1BC /* SwiftUI_Apple_FrameworksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Apple_FrameworksUITests.swift; sourceTree = "<group>"; };
 		018B81CF2BF1323A00C7E1BC /* SwiftUI_Apple_FrameworksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Apple_FrameworksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		018B81DC2BF1326700C7E1BC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		018B81DE2BF1331500C7E1BC /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		018B81E02BF133D300C7E1BC /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
+		018B81E22BF13A6300C7E1BC /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
+		018B81E62BF13F8A00C7E1BC /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
+		018B81E82BF14DB400C7E1BC /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		018B81EA2BF1507C00C7E1BC /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
+		018B81EC2BF150F500C7E1BC /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +88,7 @@
 		018B81A62BF1323900C7E1BC = {
 			isa = PBXGroup;
 			children = (
+				018B81DC2BF1326700C7E1BC /* .gitignore */,
 				018B81B12BF1323900C7E1BC /* SwiftUI-Apple-Frameworks */,
 				018B81C22BF1323A00C7E1BC /* SwiftUI-Apple-FrameworksTests */,
 				018B81CC2BF1323A00C7E1BC /* SwiftUI-Apple-FrameworksUITests */,
@@ -94,8 +109,11 @@
 		018B81B12BF1323900C7E1BC /* SwiftUI-Apple-Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				018B81F12BF1521000C7E1BC /* Views */,
+				018B81EE2BF151E300C7E1BC /* Screens */,
+				018B81F42BF1528400C7E1BC /* Models */,
+				018B81F32BF1523A00C7E1BC /* UIKit Components */,
 				018B81B22BF1323900C7E1BC /* SwiftUI_Apple_FrameworksApp.swift */,
-				018B81B42BF1323900C7E1BC /* ContentView.swift */,
 				018B81B62BF1323A00C7E1BC /* Assets.xcassets */,
 				018B81B82BF1323A00C7E1BC /* Preview Content */,
 			);
@@ -125,6 +143,73 @@
 				018B81CF2BF1323A00C7E1BC /* SwiftUI_Apple_FrameworksUITestsLaunchTests.swift */,
 			);
 			path = "SwiftUI-Apple-FrameworksUITests";
+			sourceTree = "<group>";
+		};
+		018B81EE2BF151E300C7E1BC /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				018B81EF2BF151ED00C7E1BC /* FrameworkGridView */,
+				018B81F02BF151F900C7E1BC /* FrameworkDetailView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		018B81EF2BF151ED00C7E1BC /* FrameworkGridView */ = {
+			isa = PBXGroup;
+			children = (
+				018B81E02BF133D300C7E1BC /* FrameworkGridView.swift */,
+				018B81E62BF13F8A00C7E1BC /* FrameworkGridViewModel.swift */,
+			);
+			path = FrameworkGridView;
+			sourceTree = "<group>";
+		};
+		018B81F02BF151F900C7E1BC /* FrameworkDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				018B81E22BF13A6300C7E1BC /* FrameworkDetailView.swift */,
+			);
+			path = FrameworkDetailView;
+			sourceTree = "<group>";
+		};
+		018B81F12BF1521000C7E1BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				018B81F52BF152D600C7E1BC /* Framework */,
+				018B81F22BF1521700C7E1BC /* Buttons */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		018B81F22BF1521700C7E1BC /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				018B81EC2BF150F500C7E1BC /* XDismissButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		018B81F32BF1523A00C7E1BC /* UIKit Components */ = {
+			isa = PBXGroup;
+			children = (
+				018B81E82BF14DB400C7E1BC /* SafariView.swift */,
+			);
+			path = "UIKit Components";
+			sourceTree = "<group>";
+		};
+		018B81F42BF1528400C7E1BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				018B81DE2BF1331500C7E1BC /* Framework.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		018B81F52BF152D600C7E1BC /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				018B81EA2BF1507C00C7E1BC /* FrameworkTitleView.swift */,
+			);
+			path = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				018B81BA2BF1323A00C7E1BC /* Preview Assets.xcassets in Resources */,
+				018B81DD2BF1326700C7E1BC /* .gitignore in Resources */,
 				018B81B72BF1323A00C7E1BC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +343,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				018B81B52BF1323900C7E1BC /* ContentView.swift in Sources */,
+				018B81E32BF13A6300C7E1BC /* FrameworkDetailView.swift in Sources */,
+				018B81E12BF133D300C7E1BC /* FrameworkGridView.swift in Sources */,
+				018B81ED2BF150F500C7E1BC /* XDismissButton.swift in Sources */,
+				018B81DF2BF1331500C7E1BC /* Framework.swift in Sources */,
 				018B81B32BF1323900C7E1BC /* SwiftUI_Apple_FrameworksApp.swift in Sources */,
+				018B81E72BF13F8A00C7E1BC /* FrameworkGridViewModel.swift in Sources */,
+				018B81EB2BF1507C00C7E1BC /* FrameworkTitleView.swift in Sources */,
+				018B81E92BF14DB400C7E1BC /* SafariView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +496,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -430,6 +522,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +552,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
